@@ -68,7 +68,5 @@
 			<version>${spring-webmvc-version}</version>
 		</dependency>
 
-
-
 	</dependencies>
 </project>
