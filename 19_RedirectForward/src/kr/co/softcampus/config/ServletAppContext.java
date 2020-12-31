@@ -22,7 +22,7 @@ public class ServletAppContext implements WebMvcConfigurer{
 		WebMvcConfigurer.super.configureViewResolvers(registry);
 		registry.jsp("/WEB-INF/views/",".jsp");
 	}
-	
+	 
 	// 정적 파일의 경로를 매핑한다.
 	// 사진 or 음악 ...
 	@Override
