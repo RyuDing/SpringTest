@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
+	   
+	   <bean class='kr.co.softcampus.beans.DataBean1' scope='request'/>
+	   
+	   <!-- XML로 bean을 설정하고 byName으로 주입 받았을 경우에만 request 영역에 자동 저장됨. -->	
+	   <bean class='kr.co.softcampus.beans.DataBean2' id='requestBean2' scope='request'/>
+	   
+</beans>
